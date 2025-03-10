@@ -58,7 +58,7 @@ public class MyBatisConfig implements TransactionManagementConfigurer{
     @Bean
     @Override
     public PlatformTransactionManager annotationDrivenTransactionManager() {
-        // TODO Auto-generated method stub
+        // TODO Auto-generated method stub qqq
         return new DataSourceTransactionManager(dataSource);
     }
 
